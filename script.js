@@ -3,8 +3,8 @@ var asteroids=[]; // array ,, because we need many asteroids
 var lasers=[];
 function setup(){ //  initial display environment 
 
-  createCanvas(windowWidth=420, windowHeight=380);
-  //createCanvas(windowWidth=920, windowHeight=740);
+  //createCanvas(windowWidth=420, windowHeight=380);
+  createCanvas(windowWidth=1350, windowHeight=625);
   ship = new Ship(); //making user-defined OBJ [ship] //NEW  // it will call the ship() cons func.
   for(var i=0; i<5; i++){
     asteroids.push(new Asteroid()); //NEW //push() func. add elements to arry 
